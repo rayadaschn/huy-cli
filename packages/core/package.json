@@ -6,6 +6,9 @@
   "homepage": "https://github.com/rayadaschn/huy-cli#readme",
   "license": "ISC",
   "main": "lib/core.js",
+  "bin": {
+    "huy-cli": "bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -25,5 +28,6 @@
   },
   "bugs": {
     "url": "https://github.com/rayadaschn/huy-cli/issues"
-  }
+  },
+  "gitHead": "de0c68ccd9885a64aed52b0da2fd219063b9b380"
 }
