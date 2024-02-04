@@ -14,18 +14,16 @@
     "lib"
   ],
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmmirror.com"
+    "access": "public"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rayadaschn/huy-cli.git"
   },
   "scripts": {
-    "test": "node ./__tests__/utils.test.js"
+    "test": "node ./__tests__/@huy-cli/utils.test.js"
   },
   "bugs": {
     "url": "https://github.com/rayadaschn/huy-cli/issues"
-  },
-  "gitHead": "de0c68ccd9885a64aed52b0da2fd219063b9b380"
+  }
 }

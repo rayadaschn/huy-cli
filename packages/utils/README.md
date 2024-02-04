@@ -1,11 +1,11 @@
-# `utils`
+# `@huy-cli/utils`
 
 > TODO: description
 
 ## Usage
 
 ```
-const utils = require('utils');
+const utils = require('@huy-cli/utils');
 
 // TODO: DEMONSTRATE API
 ```
