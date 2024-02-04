@@ -4,10 +4,17 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-dependencies:
-  lerna:
-    specifier: ^8.0.2
-    version: 8.0.2
+importers:
+
+  .:
+    dependencies:
+      lerna:
+        specifier: ^8.0.2
+        version: 8.0.2
+
+  packages/core: {}
+
+  packages/utils: {}
 
 packages:
 
